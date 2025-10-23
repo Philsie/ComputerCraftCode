@@ -1,7 +1,7 @@
 # Usecase: 
-Used to Monitor Level of Fluids stored inside of Me Network
+Used to Monitor Levels of fluids stored inside of a ME-Network
 # Setup
-1. Setup Computer with Adapter to ME Controller and Redstone I/O
+1. Setup Computer with Adapter to ME-Controller and Redstone I/O
 2. Save Code onto the Computer.
 3. Adjust desired liquids and their target threshould inside the Code.
 
@@ -39,4 +39,5 @@ Maintain certain fluid levels of select results of distillation
   <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/070e9705-23da-4612-a9f6-85439a29bce3" /><br>
 * Cables run to the 3 Distillation Towers equiped with "Machine Controller Covers", set to "Enable with Redstone" mode <br>
   <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/73e298d3-a1c9-4c99-b998-f9bdb6f77032" />
+
 
