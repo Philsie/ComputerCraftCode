@@ -14,7 +14,7 @@ local MeController = component.me_controller
 local RedstoneIO = component.redstone
 
 -- Define the redstone output level
-local REDSTONE_ON = 16
+local REDSTONE_ON = 16 -- 16 for Redstone 255 for Project Red cables
 local REDSTONE_OFF = 0
 
 -- Targets
