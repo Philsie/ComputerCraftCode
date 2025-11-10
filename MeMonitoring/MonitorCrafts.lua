@@ -16,21 +16,23 @@ local function monitorCrafts()
             local finalOutputTable = Cpu.cpu.finalOutput()
             if finalOutputTable ~= nil then
 				LinesToClear=LinesToClear-3
+				term.clearLine()
                 print("Item:   ",finalOutputTable.label)
+				term.clearLine()
                 print("Amount: ",finalOutputTable.size)
-                print("-------------------------------")
+                print("--------------------------------------------------")
             end
         end
     end
 
-	for i = 0, LinesToClear do print(" ") end
+	for i = 0, LinesToClear do print("                                                  ") end
 end
 
 -- Main execution
 term.clear()
 
 print("Items beeing Crafted:")
-print("###############################")
+print("##################################################")
 Gpu.setResolution(50,50)
 
 while true do
