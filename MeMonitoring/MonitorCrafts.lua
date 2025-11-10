@@ -27,5 +27,6 @@ end
 -- Main execution
 while true do
 	monitorCrafts()
+	event.pull(1, "timer")
 end
 
